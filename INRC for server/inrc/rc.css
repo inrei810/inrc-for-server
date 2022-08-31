@@ -1,0 +1,118 @@
+.waku {
+    background: #ffffff;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    margin: 30px auto;
+  }
+  h2 {
+    padding: 1rem 2rem;
+    border-left: 5px solid #000;
+    background: #f4f4f4;
+  }
+  .comment .con .name {
+    font-size: 24px;
+    font-weight: bold;
+    border: 0px;
+    padding: 0px;
+  }
+  .success_msg {
+    color: #48b400;
+    line-height: 20px;
+  }
+  .error_msg {
+    color: red;
+    line-height: 20px;
+  }
+  body {
+    font-family: Verdana, Tahoma, sans-serif, "Osaka", "ヒラギノ角ゴ Pro W3";
+    font-size: 16px;
+    line-height: 45px;
+    width: 100%;
+    margin: 0px;
+    background: #eeeeee;
+  }
+  @media screen and (max-width: 959px) {
+    body {
+      font-size: 16px;
+      line-height: 38px;
+      width: 100%;
+      background: white;
+    }.waku {
+        background: #ffffff;
+        width: 100%;
+        border: 0px solid #ffffff;
+        padding: 10px;
+        margin: 30px auto;
+        margin: 0;
+      }}
+      @media screen and (max-width: 480px) {
+        body {
+            font-size: 16px;
+            line-height: 38px;
+            width: 100%;
+            background: white;
+          }
+          .waku {
+            background: #ffffff;
+            width: 100%;
+            padding: 10px;
+            margin: 30px auto;
+            border: 0px solid #ffffff;
+            margin: 0;
+          }}
+          
+html {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 62.5%; /*rem算出をしやすくするために*/
+  }
+  
+  .btn,
+  a.btn,
+  button.btn {
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.5;
+    position: relative;
+    display: inline-block;
+    padding: 1rem 4rem;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    border-radius: 0.5rem;
+  }
+  .btn--orange,
+  a.btn--orange {
+    color: #fff;
+    background-color: #eb6100;
+  }
+  .btn--orange:hover,
+  a.btn--orange:hover {
+    color: #fff;
+    background: #f56500;
+  }
+  .name {
+    padding: 7px 9px; /*ボックスを大きくする*/
+    font-size: 16px;
+    border-radius: 3px; /*ボックス角の丸み*/
+    border: 1px solid rgb(0, 0, 0); /*枠線*/
+    box-sizing: border-box; /*横幅の解釈をpadding, borderまでとする*/
+    margin: 5px;
+  }
+  button,
+  input,
+  select,
+  textarea {
+    font-family: inherit;
+    font-size: 100%;
+  }
+    
