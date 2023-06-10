@@ -25,11 +25,11 @@ if(!empty($key))
 
 echo "1,inrc for server バージョン情報\r\n";
 if($arname=="")
-{    echo "INRC for server $ver\r\noriginal:inrei810\r\nprovider:$arname\r\nThis is original.";
+{    echo "INRC for server $ver\r\noriginal:inrei810\r\nprovider:$raname\r\nThis is original.";
 
 }
 else{
-    echo "INRC for server $ver\r\noriginal:inrei810\r\nprovider:$raname\r\nThis has been improved or changed.";
+    echo "INRC for server $ver\r\noriginal:inrei810\r\nprovider:$arname\r\nThis has been improved or changed.";
 
 }
 echo "\r\n\r\nこのメッセージは、接続成功を意味します。"
